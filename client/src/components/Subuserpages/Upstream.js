@@ -165,7 +165,7 @@ const map=he
 
   const navigate = useNavigate();
   const onAddDataClick = useCallback(() => {
-    navigate("/updash");
+    navigate("/subupdash");
   }, [navigate]);
 
 useEffect(() => {
@@ -202,17 +202,17 @@ setCalculation(() => count * 2);
       <div className="home1-add-child4" />
       <div className="home1-add-child5" />
       <div className="home1-add-child6" />
-      <Link to="/dash">
+      <Link to="/subdash">
          <a className="scope-1">Scope 1</a>
         </Link>
-        <Link to="/sco">
+        <Link to="/subsco">
         <a className="scope-2">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-32">Scope 3</a>
         </Link>
       <section className="rectangle-section" />
-      <Link to="/capital">
+      <Link to="/subcapital">
          <section className="rectangle-section" />
          <a className="stationary-c"> Capital Goods</a>
 </Link>
@@ -654,7 +654,7 @@ setCalculation(() => count * 2);
       <a className="measure">Measure</a>
       <a className="reduce">Reduce</a>
       <a className="offset">Offset</a>
-      <Link to="/Main">
+      <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link>
  <ToastContainer/>
     </div>

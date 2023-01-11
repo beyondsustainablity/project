@@ -19,7 +19,7 @@ asuser();
   const navigate = useNavigate();
 
   const onAddDataClick = useCallback(() => {
-    navigate("/fugitivetwo");
+    navigate("/subfugitivetwo");
   }, [navigate]);
 
   const hellos =async(e)=>{
@@ -71,22 +71,22 @@ let i=0;
       <img className="home1-view-child3" alt="" src="../rectangle-52@2x.png" />
       <img className="home1-view-child4" alt="" src="../rectangle-52@2x.png" />
       <img className="home1-view-child5" alt="" src="../rectangle-52@2x.png" />
-      <Link to="/dash">
+      <Link to="/subdash">
          <a className="scope-12">Scope 1</a>
         </Link>
-        <Link to="/sco">
+        <Link to="/subsco">
         <a className="scope-2">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-3">Scope 3</a>
         </Link>
       <section className="rectangle-section" />
       
-      <Link to="/dash">
+      <Link to="/subdash">
       <a className="stationary-c">Stationary Combustion</a>
         </Link>
 
-        <Link to="/mobilecombustion">
+        <Link to="/submobilecombustion">
 
 
         <a className="mobile-combustion">
@@ -95,14 +95,14 @@ let i=0;
       </a>
         </Link>
 
-        <Link to="/fug">
+        <Link to="/subfug">
       <a className="fugitive-emissions">
         <p className="mobile2">{`Fugitive `}</p>
         <p className="combustion2">Emissions</p>
       </a>
       </Link>
       
-      <Link to="/processemission">
+      <Link to="/subprocessemission">
       <a className="process-emissions">
         <p className="mobile">{`Process `}</p>
         <p className="combustion">Emissions</p>
@@ -145,7 +145,7 @@ let i=0;
       <Link className="offset" to="/home1add">
         Offset
       </Link>
-     <Link to="/Main">
+     <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link>
       <table class="infooo">
 

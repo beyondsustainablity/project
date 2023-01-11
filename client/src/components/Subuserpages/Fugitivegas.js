@@ -722,7 +722,7 @@ let vall=null
     
       const navigate = useNavigate();
       const onAddDataClick = useCallback(() => {
-        navigate("/fugigasdash");
+        navigate("/subfugigasdash");
       }, [navigate]);
     
     useEffect(() => {
@@ -757,24 +757,24 @@ let vall=null
          <div className="home1-add-child4" />
          <div className="home1-add-child5" />
          <div className="home1-add-child6" />
-         <Link to="/dash">
+         <Link to="/subdash">
          <a className="scope-12">Scope 1</a>
         </Link>
-        <Link to="/sco">
+           <Link to="/subsco">
         <a className="scope-2">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-3">Scope 3</a>
         </Link>
        
         
         
          <section className="rectangle-section" />
-         <Link to="/dash">
+         <Link to="/subdash">
       <a className="stationary-c">Stationary Combustion</a>
         </Link>
 
-        <Link to="/mobilecombustion">
+        <Link to="/submobilecombustion">
 
 
         <a className="mobile-combustion">
@@ -783,14 +783,14 @@ let vall=null
       </a>
         </Link>
 
-        <Link to="/fug">
+        <Link to="/subfug">
       <a className="fugitive-emissions">
         <p className="mobile2">{`Fugitive `}</p>
         <p className="combustion2">Emissions</p>
       </a>
       </Link>
       
-      <Link to="/processemission">
+      <Link to="/subprocessemission">
       <a className="process-emissions">
         <p className="mobile">{`Process `}</p>
         <p className="combustion">Emissions</p>

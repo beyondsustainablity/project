@@ -79,7 +79,7 @@ function Recommendation(){
       <a className="measure">Measure</a>
       <a className="reduce">Reduce</a>
       <a className="offset">Offset</a>
-      <Link to="/Main">
+      <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link>
   
 			<div className="comp">

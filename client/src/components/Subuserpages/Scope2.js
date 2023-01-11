@@ -193,12 +193,12 @@ asuser();
    
   const onEllipseImageClick = useCallback(() => {
     // Please sync "Profile" to the project
-    navigate("/sco");
+    navigate("/subsco");
   }, [navigate]);
 
   const onViewDataClick = useCallback(() => {
     // Please sync "Stationary combustion dash" to the project
-    navigate("/scodash");
+    navigate("/subscodash");
   }, [navigate]);
   const hellos =async(e)=>{
     const map=he
@@ -247,12 +247,12 @@ setCalculation(() => count * 2);
         className={scope.rectangleIcon}
         alt=""
         src="../rectangle-51@2x.png"
-      /> <Link to="/dash">
+      /> <Link to="/subdash">
    <a className={scope.scope1}>Scope 1</a>     </Link>
-     <Link to="/sco">
+        <Link to="/subsco">
      <a className={scope.scope21}>Scope 2</a>
      </Link>
-     <Link to="/scope3good">
+     <Link to="/subscope3good">
      <a className={scope.scope3}>Scope 3</a>
      </Link>
    
@@ -357,7 +357,7 @@ setCalculation(() => count * 2);
       <a className={scope.reduce}>Reduce</a>
       <a className={scope.offset}>Offset</a>
      <Link to="/Main">
-     <Link to="/Main">
+     <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link> </Link>
       <ToastContainer />
     </div>

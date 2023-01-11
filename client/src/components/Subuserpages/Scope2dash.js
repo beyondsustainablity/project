@@ -17,7 +17,7 @@ asuser();
   const navigate = useNavigate();
 
   const onAddDataClick = useCallback(() => {
-    navigate("/sco");
+    navigate("/subsco");
   }, [navigate]);
   const hellos =async(e)=>{
     const map=he
@@ -67,17 +67,17 @@ let i=0;
      
 
       <img className="home1-view-child5" alt="" src="../rectangle-52@2x.png" />
-      <Link to="/dash">
+      <Link to="/subdash">
          <a className="scope-1">Scope 1</a>
         </Link>
-        <Link to="/sco">
+           <Link to="/subsco">
         <a className="scope-22">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-3">Scope 3</a>
         </Link>
       <section className="rectangle-section" />
-      <Link to="/sco">
+         <Link to="/subsco">
       <a className="stationary-c">Electricity</a>
         </Link>
       <div className="di">{Math.round(element)}</div>
@@ -118,7 +118,7 @@ let i=0;
       <Link className="offset" to="/home1add">
         Offset
       </Link>
-     <Link to="/Main">
+     <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link>
       <table class="infoo">
 

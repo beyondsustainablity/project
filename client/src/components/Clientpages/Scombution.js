@@ -1565,7 +1565,7 @@ const map=he
     
   }
 
-
+  hellos();
   const navigate = useNavigate();
   const onAddDataClick = useCallback(() => {
     navigate("/homeview");

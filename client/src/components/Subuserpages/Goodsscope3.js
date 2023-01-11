@@ -133,7 +133,7 @@ const Fugitive = () =>{
     
       const navigate = useNavigate();
       const onAddDataClick = useCallback(() => {
-        navigate("/sc3godash");
+        navigate("/subsc3godash");
       }, [navigate]);
     
     useEffect(() => {
@@ -168,32 +168,32 @@ const Fugitive = () =>{
          <div className="home1-add-child4" />
          <div className="home1-add-child5" />
          <div className="home1-add-child6" />
-         <Link to="/dash">
+         <Link to="/subdash">
          <a className="scope-1">Scope 1</a>
         </Link>
-        <Link to="/sco">
+        <Link to="/subsco">
         <a className="scope-2">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-32">Scope 3</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
          <section className="rectangle-section" />
          <a className="stationary-c"> Capital Goods</a>
 </Link>
-         <Link to="/franchise">
+         <Link to="/subfranchise">
          <a className="mobile-combustion">
            <p className="mobile1">{`Franchise `}</p>
            <p className="combustion1"></p>
          </a>
          </Link>
-         <Link to="/upstream">
+         <Link to="/subupstream">
          <a className="fugitive-emissions">
            <p className="mobile">{`Upstream `}</p>
            <p className="combustion"></p>
          </a>
          </Link>    
-              <Link to="/downstream">
+              <Link to="/subdownstream">
 
          <a className="process-emissions">
            <p className="mobile">{`Downstream `}</p>
@@ -368,7 +368,7 @@ const Fugitive = () =>{
          <a className="measure">Measure</a>
          <a className="reduce">Reduce</a>
          <a className="offset">Offset</a>
-         <Link to="/Main">
+         <Link to="/subMain">
       <a className="dashboard">Dashboard</a>        </Link>
     <ToastContainer/>
        </div>

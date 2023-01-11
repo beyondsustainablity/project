@@ -67,7 +67,36 @@ import Profile2 from "./components/Clientpages/profile";
 import Scope2 from "./components/Clientpages/Scope2";
 import Scope2dash from "./components/Clientpages/Scope2dash";
 import Mainpage from "./components/Clientpages/Maindash";
+///subpages
+import SubScope3goodsdash from "./components/Subuserpages/Scope3goodsdash";
+import SubDownstream from "./components/Subuserpages/Downstream";
+import SubQuestion from "./components/Subuserpages/Question"
+import SubFugitive2 from "./components/Subuserpages/Fugitivegas";
 
+import SubMobile from "./components/Subuserpages/Mobilecombustion";
+import SubHome1View from "./components/Subuserpages/Mobilecombustiondash";
+import SubProcess from "./components/Subuserpages/Processemission";
+import SubProcessdash from "./components/Subuserpages/processemissiondash";
+import SubFugi from "./components/Subuserpages/Fugitiveemmision";
+import SubFugidash from "./components/Subuserpages/Fugitiveemissiondash";
+import SubScombustion from "./components/Subuserpages/Scombution";
+import SubScombustionhome from "./components/Subuserpages/Scombustiondash";
+
+import SubUpstream from "./components/Subuserpages/Upstream";
+import SubCapitalgoods from "./components/Subuserpages/Capitalgoods";
+import SubFranchise from "./components/Subuserpages/Franchisescope3";
+import SubGoodsscope3 from "./components/Subuserpages/Goodsscope3";
+
+import SubFranchisedash from './components/Subuserpages/Franchisedash';
+import SubFugitivegasdash from './components/Subuserpages/Fugitive2dash';
+import SubDowndash from './components/Subuserpages/Downstreamdash';
+import SubUpstreamdashb from './components/Subuserpages/Upstreamdash';
+import SubCapdash from './components/Subuserpages/Capitalgoodsdash';
+import SubRecommendation from './components/Subuserpages/Recommendation';
+
+import SubScope2 from "./components/Subuserpages/Scope2";
+import SubScope2dash from "./components/Subuserpages/Scope2dash";
+import SubMainpage from "./components/Subuserpages/Maindash";
 
 
 
@@ -244,7 +273,36 @@ function App() {
     <Route path="/Main" element={<Mainpage/>}/>
        
 
- 
+   {/* <Route path="/report" element={<Report/>}/> */}
+      <Route path="/" element={<SubScombustion/>}/>
+      <Route path="/subhomeview" element={<SubScombustionhome/>}/>
+      <Route path="/subquestion" element={<SubQuestion/>}/>
+      <Route path="/subdownstream" element={<SubDownstream/>}/>
+      <Route path="/subupstream" element={<SubUpstream/>}/>
+      <Route path="/subcapital" element={<SubCapitalgoods/>}/>
+      <Route path="/subfugitivetwo" element={<SubFugitive2/>}/>
+  
+      <Route path="/subhome" element={<SubScombustion/>}/>
+      <Route path="/subhomeview" element={<SubScombustionhome/>}/>
+      <Route path="/submobilecombustion" element={<SubMobile/>}/>
+      <Route path="/submobiledash" element={<SubHome1View/>}/>
+      <Route path="/subprocessemission" element={<SubProcess/>}/>
+      <Route path="/subprocessdash" element={<SubProcessdash/>}/>
+      <Route path="/subfug" element={<SubFugi/>}/>
+      <Route path="/subfugdash" element={<SubFugidash/>}/>
+      
+      <Route path="/subsco" element={<SubScope2/>}/>
+      <Route path="/subscodash" element={<SubScope2dash/>}/>
+      <Route path="/subfranchise" element={<SubFranchise/>}/>
+      <Route path="/subscope3good" element={<SubGoodsscope3/>}/>
+      <Route path="/subrec" element={<SubRecommendation/>}/>
+      <Route path="/subfranchdash" element={<SubFranchisedash/>}/>
+      <Route path="/subsc3godash" element={<SubScope3goodsdash/>}/>
+      <Route path="/subfugigasdash" element={<SubFugitivegasdash/>}/>
+      <Route path="/subdowndash" element={<SubDowndash/>}/>
+      <Route path="/subupdash" element={<SubUpstreamdashb/>}/>
+      <Route path="/subcapdash" element={<SubCapdash/>}/>
+      <Route path="/subMain" element={<SubMainpage/>}/>
 
                        
 

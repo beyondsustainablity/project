@@ -19,7 +19,7 @@ asuser();
   const navigate = useNavigate();
 
   const onAddDataClick = useCallback(() => {
-    navigate("/fug");
+    navigate("/subfug");
   }, [navigate]);
   const hellos =async(e)=>{
     const map=he
@@ -70,33 +70,33 @@ let i=0;
       <img className="home1-view-child3" alt="" src="../rectangle-52@2x.png" />
       <img className="home1-view-child4" alt="" src="../rectangle-52@2x.png" />
       <img className="home1-view-child5" alt="" src="../rectangle-52@2x.png" />
-      <Link to="/dash">
+      <Link to="/subdash">
          <a className="scope-1">Scope 1</a>
         </Link>
-        <Link to="/sco">
+        <Link to="/subsco">
         <a className="scope-2">Scope 2</a>
         </Link>
-        <Link to="/capital">
+        <Link to="/subcapital">
         <a className="scope-32">Scope 3</a>
         </Link>
          <section className="rectangle-section" />
-         <Link to="/capital">
+         <Link to="/subcapital">
          <section className="rectangle-section" />
          <a className="stationary-c2"> Capital Goods</a>
          </Link>
-         <Link to="/franchise">
+         <Link to="/subfranchise">
          <a className="mobile-combustion">
            <p className="mobile1">{`Franchise `}</p>
            <p className="combustion1"></p>
          </a>
          </Link>
-         <Link to="/upstream">
+         <Link to="/subupstream">
          <a className="fugitive-emissions">
            <p className="mobile">{`Upstream `}</p>
            <p className="combustion"></p>
          </a>
          </Link>    
-              <Link to="/downstream">
+              <Link to="/subdownstream">
 
          <a className="process-emissions">
            <p className="mobile">{`Downstream `}</p>

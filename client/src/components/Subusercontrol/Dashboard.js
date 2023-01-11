@@ -9,8 +9,7 @@ import Scope3goodsdash from "../Subuserpages/Scope3goodsdash";
 import Downstream from "../Subuserpages/Downstream";
 import Question from "../Subuserpages/Question"
 import Fugitive2 from "../Subuserpages/Fugitivegas";
-import AssetDeclaration from "../Subuserpages/AssetDeclaration";
-import CompanyDetails from "../Subuserpages/CompanyDetails";
+
 import Mobile from "../Subuserpages/Mobilecombustion";
 import Home1View from "../Subuserpages/Mobilecombustiondash";
 import Process from "../Subuserpages/Processemission";
@@ -18,7 +17,7 @@ import Processdash from "../Subuserpages/processemissiondash";
 import Fugidash from "../Subuserpages/Fugitiveemissiondash";
 import Scombustion from "../Subuserpages/Scombution";
 import Scombustionhome from "../Subuserpages/Scombustiondash";
-import Subuseradd from "../Subuserpages/Subuseradd";
+
 import Upstream from "../Subuserpages/Upstream";
 import Capitalgoods from "../Subuserpages/Capitalgoods";
 import Franchise from "../Subuserpages/Franchisescope3";
@@ -117,36 +116,35 @@ const Dashboard = () => {
         <>
         <Routes> 
       <Route path="/" element={<Scombustion/>}/>
-      <Route path="/homeview" element={<Scombustionhome/>}/>
-      <Route path="/question" element={<Question/>}/>
-      <Route path="/downstream" element={<Downstream/>}/>
-      <Route path="/upstream" element={<Upstream/>}/>
-      <Route path="/capital" element={<Capitalgoods/>}/>
-      <Route path="/fugitivetwo" element={<Fugitive2/>}/>
-      <Route path="/companyadd2" element={<AssetDeclaration/>}/>
-      <Route path="/companyadd" element={<CompanyDetails/>}/>
-      <Route path="/home" element={<Scombustion/>}/>
-      <Route path="/homeview" element={<Scombustionhome/>}/>
-      <Route path="/mobilecombustion" element={<Mobile/>}/>
-      <Route path="/mobiledash" element={<Home1View/>}/>
-      <Route path="/processemission" element={<Process/>}/>
-      <Route path="/processdash" element={<Processdash/>}/>
-      <Route path="/fug" element={<Fugi/>}/>
-      <Route path="/fugdash" element={<Fugidash/>}/>
-      <Route path="/Subuseradd" element={<Subuseradd/>}/>
-      <Route path="/profile" element={<Profile2/>}/>
-      <Route path="/sco" element={<Scope2/>}/>
-      <Route path="/scodash" element={<Scope2dash/>}/>
-      <Route path="/franchise" element={<Franchise/>}/>
-      <Route path="/scope3good" element={<Goodsscope3/>}/>
-      <Route path="/rec" element={<Recommendation/>}/>
-      <Route path="/franchdash" element={<Franchisedash/>}/>
-      <Route path="/sc3godash" element={<Scope3goodsdash/>}/>
-      <Route path="/fugigasdash" element={<Fugitivegasdash/>}/>
-      <Route path="/downdash" element={<Downdash/>}/>
-      <Route path="/updash" element={<Upstreamdashb/>}/>
-      <Route path="/capdash" element={<Capdash/>}/>
-      <Route path="/Main" element={<Mainpage/>}/>
+      <Route path="/subhomeview" element={<Scombustionhome/>}/>
+      <Route path="/subquestion" element={<Question/>}/>
+      <Route path="/subdownstream" element={<Downstream/>}/>
+      <Route path="/subupstream" element={<Upstream/>}/>
+      <Route path="/subcapital" element={<Capitalgoods/>}/>
+      <Route path="/subfugitivetwo" element={<Fugitive2/>}/>
+   
+      <Route path="/subhome" element={<Scombustion/>}/>
+      <Route path="/subhomeview" element={<Scombustionhome/>}/>
+      <Route path="/submobilecombustion" element={<Mobile/>}/>
+      <Route path="/submobiledash" element={<Home1View/>}/>
+      <Route path="/subprocessemission" element={<Process/>}/>
+      <Route path="/subprocessdash" element={<Processdash/>}/>
+      <Route path="/subfug" element={<Fugi/>}/>
+      <Route path="/subfugdash" element={<Fugidash/>}/>
+    
+      <Route path="/subprofile" element={<Profile2/>}/>
+      <Route path="/subsco" element={<Scope2/>}/>
+      <Route path="/subscodash" element={<Scope2dash/>}/>
+      <Route path="/subfranchise" element={<Franchise/>}/>
+      <Route path="/subscope3good" element={<Goodsscope3/>}/>
+      <Route path="/subrec" element={<Recommendation/>}/>
+      <Route path="/subfranchdash" element={<Franchisedash/>}/>
+      <Route path="/subsc3godash" element={<Scope3goodsdash/>}/>
+      <Route path="/subfugigasdash" element={<Fugitivegasdash/>}/>
+      <Route path="/subdowndash" element={<Downdash/>}/>
+      <Route path="/subupdash" element={<Upstreamdashb/>}/>
+      <Route path="/subcapdash" element={<Capdash/>}/>
+      <Route path="/subMain" element={<Mainpage/>}/>
         </Routes>
 
   
